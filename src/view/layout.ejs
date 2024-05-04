@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="/"></a>
+                    <img id="logoimg"
+                        src="https://static.vecteezy.com/system/resources/previews/020/336/410/non_2x/marvel-logo-marvel-icon-free-free-vector.jpg"
+                        alt="logo">
+                    </a>
+                </div>
+
+                <div id="searchInput" class="magicalwords">
+                    <input type="text" id="searchInput" placeholder="Search Superheroes">
+                    <button id="searchbtn">Search</button>
+
+
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a id="favHeros">My Favorite Superheroes</a></li>
+                        <!-- Add more menu items as needed -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div id="superheroesList" >
+        <!-- Superheroes list will be dynamically populated here -->
+    </div>
+    <div class="charContainer" id="detailsChar">
+        <div class="character-info">
+            <div class="character-image">
+                <img id="characterImage" src="" alt="Character Image">
+            </div>
+            <div class="character-details" id="characterDetails">
+                <!-- Character details will be populated here -->
+            </div>
+        </div>
+        <div class="attribution">
+            <p id="attributionText"></p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "superherohunter",
+  "version": "1.0.0",
+  "description": "is a project to add superhero charecters and others",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DILIPKUMARBC8055/SuperHeroHunter.git"
+  },
+  "author": "DILIP KUMAR B C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DILIPKUMARBC8055/SuperHeroHunter/issues"
+  },
+  "homepage": "https://github.com/DILIPKUMARBC8055/SuperHeroHunter#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.3.3",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
