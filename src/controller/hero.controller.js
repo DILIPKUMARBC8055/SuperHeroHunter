@@ -67,7 +67,6 @@ export default class heroController {
   // Method to remove a superhero from favorites
   async removeFav(req, res) {
     const { superheroId } = req.body;
-
     try {
       // Delete favorite superhero document
       await MarverModel.deleteOne({ id: superheroId });
